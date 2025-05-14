@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #1d4b0b;
+    color: #333;
+  }
+  
+  .navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li {
+    cursor: pointer;
+  }
+  
+  .navbar ul li.active {
+    border-bottom: 2px solid white;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: white;
+  }
+  
+  .card {
+    background: #f5b60f;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="file"],
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  
+  input[readonly] {
+    background-color: #f0f0f0;
+  }
+  
+  .preview input {
+    background-color: #f0fff0;
+    border: 1px dashed #28a745;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background-color: #197d50;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #145c3c;
+  }
+  
